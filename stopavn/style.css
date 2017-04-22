@@ -1,0 +1,309 @@
+/*colours #e62224 red*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+blockquote {
+    margin-left: 2em;
+    font-style: italic;
+}
+
+body{
+	font-size: 62.5%;
+	font-family: helvetica, arial, sans-serif;
+	color: #7b7b7b;
+}
+
+.clear{
+	clear: both;
+}
+
+#page-container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+	
+
+
+p{
+	font-size:1.4em;
+	line-height: 24px;
+	padding-top: 20px;
+}
+
+h1{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 3.2em;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding-top: 35px;
+	color: #959595;
+
+}
+
+h2 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 2 em;
+	text-transform: uppercase;
+	color: #e62224;
+	padding-top:10px;
+}
+
+h3{
+	font-family:  helvetica, arial, sans-serif;
+	font-size: 2em;
+	line-height: 1.4em;
+	text-transform: uppercase;
+	color: gray;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h4{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+h5{
+	font-size:1.4em;
+	color: #aaaaaa;
+	font-weight: normal;
+}
+
+.main-list{
+	font-size:62.5%;
+}
+
+
+#header{
+	height: 229px;
+	width: 960px;
+	background: url(images/header-bg.png) bottom center no-repeat;
+}
+	#header h1{
+		text-indent: -9999px;
+	}
+	
+	#nav{
+		float:right;
+	}
+	
+	#nav ul li{
+		        display: inline;
+		        list-style: none;
+		        font-family: helvetica, arial, sans-serif;
+		        font-size: 1.5em;
+				font-weight: normal;
+		        color: white;
+				text-align: center;
+		}
+
+		    #nav ul li a{
+		        display: block;
+		        float: left;
+		        padding-left: 30px;
+				padding-top: 9px;
+				padding-right: 30px;
+		        height: 30px;
+		        margin-top: 10px;
+		        text-decoration: none;
+		        color: white;
+		         
+		}
+
+			#nav ul li a:hover, #nav ul li a:active{
+				text-decoration: underline;
+
+			}
+
+			.active{
+				text-decoration: underline;
+
+			}
+			
+#down-load-menu{
+	width: 960px;
+	height: 260px;
+	border-top: 2px #e62224 solid;
+	border-bottom: 4px #e62224 solid;
+
+}
+
+#link-copy{
+	width: 310px;
+	height: 250px;
+	float: left;
+}
+#link-copy p{
+	padding-left:10px;
+}
+
+#link-copy a{
+	color: #7b7b7b;
+}
+
+
+#logo{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+#logo img{
+	margin-top: 30px;
+	margin-left:140px;
+}
+
+#link-title{
+	width: 300px;
+	height: 250px;
+	float: right;
+}
+
+#link-title a{
+	color: #e62224;
+}
+
+	#link-title h1{
+		border-bottom: 1px #e62224 solid;
+	}
+	
+	#link-title h4{
+		padding-top: 15px;
+	}
+	
+
+#side-bar{
+	height: 500px;
+	width: 310px;
+	background: url(images/stopavn_giraffe.png) center center no-repeat;
+	float: left;
+
+}
+
+	#side-bar h3{
+		padding-left: 45px;
+		padding-top: 170px;
+		text-align: center;
+	}
+	
+		#side-bar h3 a{
+			color: #e62224;
+			line-height: 2.7em;
+		}
+
+#main-content{
+	height: 1000px;
+	width: 630px;
+	margin-right: 10px;
+	float: right;
+}
+
+.full-width-content{
+
+	width: 960px !important;
+	margin-right: 10px;
+	float: right;
+	margin-top: 20px;
+
+}
+
+.full-width-content h2	{
+	margin-top: 3em;
+}
+
+.full-width-content ul li{
+	font-size: 1.4em;
+	line-height: 2em;
+	margin-left: 95px;
+	margin-top: 1em;
+	list-style: square;
+}
+
+.full-width-content p	{
+	font-size: 1.8em;
+}
+
+h3.call-to-action	{
+	background: url('images/finger.png');
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+h3.call-to-action a {
+	text-decoration: none;
+}
+
+#main-content h1{
+	margin-left: 80px;
+	margin-top: 20px;
+	padding-top:50px;
+	color: #e62224;
+	font-size: 2.4em;
+
+}
+#main-content h3{
+	margin-left: 80px;
+	text-transform: none;
+	padding: 20px 0px 10px 0px;
+}
+
+
+#main-content p{
+	padding-left:80px;
+}
+
+#main-content ul li{
+	font-size: 1.8em;
+	line-height: 2em;
+	margin-left: 95px;
+	list-style: square;
+}
+
+#main-content ul li a{
+	color: #7b7b7b;
+}
+	
+#main-content ul li a:hover {
+		color: #e62224;
+}
+
+#main-content a{
+	color: #7b7b7b;
+}
+
+#main-content a:hover {
+	color: #e62224;
+}
+
+#footer{
+	width: 960px;
+	height: 30px;
+	border-top:2px #cccccc solid;
+	
+}
+
+#footer h5{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	
+}
+
+.screenshot	{
+	margin: auto;
+	text-align: center;
+}
